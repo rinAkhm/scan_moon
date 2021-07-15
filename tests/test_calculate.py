@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from main import calculate # Импорт функции calculate из домашнего задания
+from main import calculate  # Импорт функции calculate из домашнего задания
 from tests.constant_test_cases import PUBLIC_TEST_CASES, SECRET_TEST_CASES
 
 ALL_TEST_CASES = PUBLIC_TEST_CASES + SECRET_TEST_CASES
