@@ -22,6 +22,8 @@ def calculate(matrix: list) -> int:
             if matrix[row][column] == 1:
                 count_craters += 1
                 checks_adjacent_numbers(matrix, row, column)
+            else:
+                continue
     return count_craters
 
 
